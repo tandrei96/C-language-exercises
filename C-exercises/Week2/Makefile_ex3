@@ -1,0 +1,4 @@
+default: tema2_ex3
+
+tema2_ex3: Tema2_ex3.c header1.h header2.h
+	gcc $^ -o $@

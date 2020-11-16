@@ -1,0 +1,4 @@
+default: tema4_ex3
+
+tema4_ex3: Tema4_ex3.c my_lib.c 
+	clang $^ -o $@

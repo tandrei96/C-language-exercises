@@ -1,0 +1,4 @@
+default: tema3_ex3
+
+tema3_ex3: Tema3_ex3.c
+	cc $^ -o $@
